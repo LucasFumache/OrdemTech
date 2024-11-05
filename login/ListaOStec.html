@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Produtos</title>
+    <script src="./js/ListaOStec.js" defer></script>
+    <style>
+        body {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh; 
+    margin: 0;
+    font-family: Lucida Bright;
+    background-color: #3f5a8f;
+}
+
+header {
+    background-color: #3f5a8f;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+}
+
+.navbar p {
+    font-size: 30px;
+    margin: 0; 
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px; 
+    margin: auto; 
+    margin-top: 20px; 
+    overflow: auto; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+button {
+    border-radius: 8px;
+    height: 35px;
+    width: 70px;
+    font-size: 18px;
+    font-family: Lucida Bright;
+    color: white;
+    background-color: #3f5a8f;
+   
+}
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <p id="mensagem"></p>
+            <button  id="btnsair">Sair</button>
+        </nav>
+    </header>
+    <div class="login-container">
+       
+    </div>
+</body>
+</html>
